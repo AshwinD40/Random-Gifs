@@ -9,7 +9,7 @@ function Random() {
    <div className=" w-1/2  bg-green-600  rounded-lg border border-black flex flex-col text-center items-center gap-y-5 mt-[15px] ">
       <h1 className="mt-[15px] text-2xl font-bold underline">A RANDOM GIF</h1>
       {
-        loading ? (<Spinner/>) : (<img src={gif} width="450"/>)
+        loading ? (<Spinner/>) : (<img src={gif} width="450" alt="gif"/>)
       }
 
       <button
